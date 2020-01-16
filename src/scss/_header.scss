@@ -1,0 +1,17 @@
+header {
+    border-bottom: 1px solid $primary_grey;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .left span {
+        font-size: 20px;
+    }
+
+    .right a {
+        margin: 0 10px;
+    }
+
+}

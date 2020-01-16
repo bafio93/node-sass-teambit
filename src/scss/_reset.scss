@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 7vw;
+    color: $primary_color;
+}
+
+a {
+    text-decoration: none;
+    color: $primary_color;
+    font-weight: bold;
+
+    &.blue:hover{
+        color: $primary_blue;
+    }
+
+    &.none:hover{
+        color: $primary_color;
+    }
+
+    &.google{
+        color: $primary_white;
+        background-color: $primary_blue;
+        padding: 10px 15px;
+        border-radius: 10px;
+
+        &:hover{
+            color: $primary_white;
+            background-color: #20387f;
+        }
+
+    }
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0 7vw;
+  color: #7b614c;
+}
+
+a {
+  text-decoration: none;
+  color: #7b614c;
+  font-weight: bold;
+}
+
+a.blue:hover {
+  color: #30488F;
+}
+
+a.none:hover {
+  color: #7b614c;
+}
+
+a.google {
+  color: white;
+  background-color: #30488F;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+a.google:hover {
+  color: white;
+  background-color: #20387f;
+}
+
+header {
+  border-bottom: 1px solid #bdb5af;
+  height: 70px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+header .left span {
+  font-size: 20px;
+}
+
+header .right a {
+  margin: 0 10px;
+}
+
